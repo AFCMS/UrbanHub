@@ -1,9 +1,21 @@
 ---
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "daily"
+      interval: daily
+    cooldown:
+      default-days: 7
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    cooldown:
+      default-days: 7
+  - package-ecosystem: opentofu
+    directory: /infra
+    schedule:
+      interval: daily
     cooldown:
       default-days: 7
