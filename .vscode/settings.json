@@ -5,6 +5,13 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.detectIndentation": false,
+    "files.associations": {
+        "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow"
+    },
     // Extensions settings
-    "zizmor.enable": true
+    "zizmor.enable": true,
+    // Language settings
+    "[github-actions-workflow]": {
+        "editor.tabSize": 2
+    }
 }

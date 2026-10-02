@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "zizmor.zizmor-vscode"
+        "zizmor.zizmor-vscode",
+        "github.vscode-github-actions"
     ]
 }
