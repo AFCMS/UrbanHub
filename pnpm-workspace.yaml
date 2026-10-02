@@ -1,0 +1,15 @@
+---
+packages:
+  - packages/*
+
+injectWorkspacePackages: true
+
+linkWorkspacePackages: true
+
+minimumReleaseAge: 1440
+
+sharedWorkspaceLockfile: true
+
+trustPolicy: no-downgrade
+
+pmOnFail: ignore

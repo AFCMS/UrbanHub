@@ -1,0 +1,21 @@
+{
+  "name": "UrbanHub",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "oxfmt": "^0.71.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12",
+      "onFail": "error"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24",
+      "onFail": "error"
+    }
+  }
+}

@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "zizmor.zizmor-vscode",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+        "opentofu.vscode-opentofu",
+        "oxc.oxc-vscode"
     ]
 }
