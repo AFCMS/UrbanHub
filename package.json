@@ -4,7 +4,7 @@
   "private": true,
   "license": "ISC",
   "devDependencies": {
-    "oxfmt": "^0.71.0"
+    "oxfmt": "^0.72.0"
   },
   "devEngines": {
     "packageManager": {
