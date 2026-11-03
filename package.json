@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "license": "ISC",
+  "files": [],
+  "type": "module",
   "devDependencies": {
-    "oxfmt": "^0.74.0"
+    "oxfmt": "^0.75.0"
   },
   "devEngines": {
     "packageManager": {
