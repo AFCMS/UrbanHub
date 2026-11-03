@@ -9,7 +9,8 @@
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "files.associations": {
-    "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow"
+    "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow",
+    "**/.husky/**": "shellscript"
   },
   // Extensions settings
   "npm.packageManager": "pnpm",
@@ -35,6 +36,7 @@
   },
   "[typescript]": {},
   "[github-actions-workflow]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   }
 }
