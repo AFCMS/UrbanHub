@@ -34,3 +34,17 @@ Check used NPM packages for updates using `pnpm`.
 ```shell
 pnpm update --interactive --latest --recursive
 ```
+
+## GitHub Actions
+
+You need the GitHub CLI installed with the `actions-lock` extension:
+
+```shell
+gh extension install github/gh-actions-lock
+```
+
+Then:
+
+```shell
+rm -f .github/workflows/actions.lock && pnpx actions-up@latest --style preserve && gh actions-lock
+```
