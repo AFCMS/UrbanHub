@@ -10,6 +10,7 @@
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "files.associations": {
     "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow",
+    "**/.github/workflows/actions.lock": "yaml",
     "**/.husky/**": "shellscript"
   },
   // Extensions settings
@@ -35,6 +36,19 @@
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.quickSuggestions": {
+      "strings": true,
+      "other": true,
+      "comments": false
+    },
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "[github-actions-workflow]": {
